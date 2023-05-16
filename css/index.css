@@ -1,0 +1,60 @@
+:root {
+    /*ABOUT INTRO STYLES TO TOGGLE BETWEEN DESKTOP
+    AND MOBILE LAYOUTS*/
+    --intro-section-display: row;  /*COLUMN ROW FOR DESKTOP && COLUMN FOR MOBILE*/
+    --intro-section-gap: 10vh;      /*10VH FOR DESKTOP && 0 FOR MOBILE*/
+    --intro-section-width: 60vw;
+}
+
+#body-content {
+    padding-bottom: 8vh;
+}
+
+.heading {
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.heading h1{
+    margin-top: 30vh;
+    font-family: "Calibri";
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.heading p {
+    font-family: "Calibri";
+    font-size: 18px;
+}
+
+/*****ANIMATED SECTION COMPONENT STYLING BEGINS*****/
+
+.animated-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*****ANIMATED SECTION COMPONENT STYLING ENDS******/
+
+/*****INFO BADGE AND VALUE START HERE*****/
+.info-badge {
+    font-family: "Calibri";
+    font-size: 17px;
+    margin-right: 10px;
+    background-color: silver;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    white-space: nowrap;
+}
+
+/*****INFO BADGE AND VALUE END HERE*****/
+
+/******************MEDIA QUERIES BEGIN******************/
+
+/******************MEDIA QUERIES END******************/
+
+

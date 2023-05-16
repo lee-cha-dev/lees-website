@@ -1,0 +1,177 @@
+.about-section {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+}
+
+.about-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.about-intro h1 {
+    font-family: "Calibri";
+    font-weight: bold;
+    font-size: 28px;
+
+    margin: 10px 0;
+}
+
+.about-intro p {
+    font-family: "Calibri";
+    font-weight: bold;
+    font-size: 20px;
+
+    margin: 10px 0;
+}
+
+.profile-image {
+    height: 25vh;
+    border-radius: 50%;
+    margin-bottom: 2vh;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    border: 1px solid black;
+}
+
+.about-me-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 60vw;
+
+    margin-top: 6vh;
+}
+
+.about-me-section h1 {
+    text-decoration: underline;
+    font-family: "Calibri";
+    font-weight: bold;
+    font-size: 24px;
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.about-me-section p {
+    font-family: "Calibri";
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.about-me-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.about-me-section li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.info-badge-div-uni {
+    margin-right: 25px;
+}
+
+.info-value-div-uni {
+    /*float: right;*/
+}
+
+.info-badge-div-study {
+    margin-right: 58px;
+}
+
+.info-value-div-study {
+    /*float: right;*/
+}
+
+.skills-grid {
+    display: grid;
+    grid-template: "1fr 1fr 1fr";
+    row-gap: 10px;
+}
+
+/******************MEDIA QUERIES BEGIN******************/
+
+@media only screen and (max-width: 768px) {
+    /* FOR DESKTOP: */
+    .about-section {
+        flex-direction: row;
+        /*gap: 10vh;*/
+    }
+
+    .about-me-section {
+        width: 60vw;
+    }
+
+    .about-me-section ul {
+        margin-top: 0;
+    }
+
+    .about-me-section li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .skills-grid {
+        grid-template: "1fr 1fr 1fr";
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .about-me-section {
+        width: 80vw;
+    }
+
+    .skills-grid {
+        grid-template: "1fr 1fr";
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /* FOR TABLETS: */
+    .about-section {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .about-me-section {
+
+    }
+
+    .about-me-section ul {
+        margin-top: 25px;
+    }
+
+    .about-me-section li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .skills-grid {
+        grid-template: "1fr 1fr";
+    }
+}
+
+
+@media only screen and (max-width: 425px){
+    /*FOR MOBILE*/
+
+    .skills-grid {
+         grid-template: "1fr";
+     }
+}
+
+/******************MEDIA QUERIES END******************/
+
