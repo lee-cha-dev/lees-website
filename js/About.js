@@ -4,7 +4,7 @@ const aboutElements =
     `   ${AnimatedSection(
             "" +
             `<div class='about-section'>` +
-            `   <img class='profile-image' src='../media/images/devil.png'  alt="profile-picture" /> ` +
+            `   <img class='profile-image' src='./media/images/devil.png'  alt="profile-picture" /> ` +
             "   <div class='about-intro'>" +
             "     <h1>Lee Charles</h1>" +
             "     <p>Software Developer</p>" +
