@@ -4,9 +4,11 @@ const ProjectOverview = (imageSource, heading, year, technology, about,
 
     const ProjectOverviewElements =
         "<div class='project-overview-section'>" +
-        "   <a>" +
-        `       <img class='project-image' src=${imageSource} alt='project-image' />` +
-        "   </a>" +
+        "   <div class='project-image-div'>" +
+        "       <a>" +
+        `          <img class='project-image' src=${imageSource} alt='project-image' />` +
+        "       </a>" +
+        "   </div>" +
         `   <h2>${heading}</h2>` +
         "   <div class='project-list-section'>" +
         "       <ul>" +

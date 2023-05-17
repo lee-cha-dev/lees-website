@@ -3,13 +3,21 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    width: 60vw;
 }
 
 .project-overview-section h2 {
     font-family: "Calibri";
     font-size: 25px;
     font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.project-image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-image {
@@ -22,6 +30,7 @@
 .project-list-section {
     display: flex;
     flex-direction: column;
+
 }
 
 .project-list-section ul {
@@ -30,6 +39,7 @@
     list-style: none;
     align-items: center;
     margin: 0;
+    padding-left: 0;
     gap: 5vw;
 
 }

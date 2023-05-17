@@ -4,7 +4,7 @@ const portfolioElements =
     `   ${AnimatedSection(
         "" +
         "       <div class='portfolio-section'>" +
-        "           <h1 class='portfolio-heading'>Portfolio</h1>" +
+        "           <h1 class='portfolio-heading'>Portfolio</label></h1>" +
         "       </div>"
     )}` +
     `   ${AnimatedSection(
@@ -19,6 +19,19 @@ const portfolioElements =
             "Google",
             "https://www.google.com/"
         )}`
+    )}` +
+    `   ${AnimatedSection(
+        "" +
+        `   ${ProjectOverview(
+            "./media/images/devil.png",
+            "Placeholder Project",
+            "2023",
+            "Grocery list of techs most HRs 'require'.",
+            "A placeholder to test the project overview component.",
+            "https://www.github.com",
+            "Bing",
+            "https://www.bing.com/"
+        )}` 
     )}` +
     "</div>";
 
