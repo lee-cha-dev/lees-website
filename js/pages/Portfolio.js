@@ -1,11 +1,25 @@
 const portfolioElements =
     "<div>" +
     `   ${Navbar()}`+
-    "   <section class='heading'>" +
-    "       <h1>Portfolio Page</h1>" +
-    "       <p>Welcome to the Portfolio Page!</p>" +
-    "       <p>Thank you for using HTML-Injection</p>" +
-    "   </section>" +
+    `   ${AnimatedSection(
+        "" +
+        "       <div class='portfolio-section'>" +
+        "           <h1 class='portfolio-heading'>Portfolio</h1>" +
+        "       </div>"
+    )}` +
+    `   ${AnimatedSection(
+        "" +
+        `   ${ProjectOverview(
+            "./media/images/stock-dashboard-ss.png",
+            "Test Project",
+            "2023",
+            "HTML, CSS, JavaScript",
+            "A test project to provide an overview",
+            "https://www.github.com/",
+            "Google",
+            "https://www.google.com/"
+        )}`
+    )}` +
     "</div>";
 
 const Portfolio = () => {

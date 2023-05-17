@@ -1,0 +1,74 @@
+.project-overview-section {
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-overview-section h2 {
+    font-family: "Calibri";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.project-image {
+    width: 60vw;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+
+}
+
+.project-list-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-list-section ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    gap: 5vw;
+
+}
+
+.project-list-section li {
+
+}
+
+.project-list-section a {
+    text-decoration: none;
+    color: black;
+}
+
+.project-list-section a:hover {
+    text-decoration: underline;
+}
+
+.project-list-section p {
+    font-family: "Calibri";
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.year-label {
+    margin-right: 60px;
+}
+
+.tech-label {
+
+}
+
+.about-label {
+    margin-right: 45px;
+}
+
+.github-label {
+    margin-right: 40px;
+}
+
+.link-label {
+    margin-right: 60px;
+}
