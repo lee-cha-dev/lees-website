@@ -11,6 +11,7 @@ const portfolioElements =
         "" +
         `   ${ProjectOverview(
             "./media/images/stock-dashboard-ss.png",
+            "https://www.google.com/",
             "Test Project",
             "2023",
             "HTML, CSS, JavaScript",
@@ -23,7 +24,8 @@ const portfolioElements =
     `   ${AnimatedSection(
         "" +
         `   ${ProjectOverview(
-            "./media/images/devil.png",
+            "./media/images/stock-dashboard-ss.png",
+            "https://www.google.com/",
             "Placeholder Project",
             "2023",
             "Grocery list of techs most HRs 'require'.",

@@ -1,11 +1,11 @@
 
-const ProjectOverview = (imageSource, heading, year, technology, about,
+const ProjectOverview = (imageSource, imageLink, heading, year, technology, about,
                          githubLink, liveLinkDesc, liveLinkHref) => {
 
     const ProjectOverviewElements =
         "<div class='project-overview-section'>" +
         "   <div class='project-image-div'>" +
-        "       <a>" +
+        `       <a href=${imageLink}>` +
         `          <img class='project-image' src=${imageSource} alt='project-image' />` +
         "       </a>" +
         "   </div>" +
