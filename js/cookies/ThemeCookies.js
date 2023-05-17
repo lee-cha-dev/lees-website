@@ -1,4 +1,4 @@
-
+// INITIALLY CREATE COOKIES FOR FIRST TIME USER/USER WITHOUT COOKIES
 const createThemeCookies = (themeType) => {
     setThemeCookies("theme", themeType, 90);
 }
