@@ -30,11 +30,9 @@ function devNav(dirArr, content){
     // HANDLING PAGE TO LOAD
     switch (dirArr[dirArr.length - 1]){
         case "portfolio.html":          // LOAD PORTFOLIO CONTENT
-            console.log("Portfolio");
             content.innerHTML += Portfolio();
             break;
         default:                        // LOAD LANDING PAGE
-            console.log("Home Page");
             content.innerHTML += About();
     }
 }
@@ -43,11 +41,9 @@ function deployedNav(dirArr, content){
     // HANDLING PAGE TO LOAD
     switch (dirArr[dirArr.length - 1]){
         case "portfolio":           // LOAD PORTFOLIO CONTENT
-            console.log("Portfolio");
             content.innerHTML += Portfolio();
             break;
         default:                    // LOAD LANDING PAGE
-            console.log("Home Page");
             content.innerHTML += About();
     }
 }
