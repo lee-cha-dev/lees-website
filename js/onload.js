@@ -30,6 +30,9 @@ function devNav(dirArr, content){
         case "portfolio.html":          // LOAD PORTFOLIO CONTENT
             content.innerHTML += Portfolio();
             break;
+        case "resume.html":
+            content.innerHTML += Resume();
+            break;
         default:                        // LOAD LANDING PAGE
             content.innerHTML += About();
     }
@@ -40,6 +43,9 @@ function deployedNav(dirArr, content){
     switch (dirArr[dirArr.length - 1]){
         case "portfolio":           // LOAD PORTFOLIO CONTENT
             content.innerHTML += Portfolio();
+            break;
+        case "resume":
+            content.innerHTML += Resume();
             break;
         default:                    // LOAD LANDING PAGE
             content.innerHTML += About();

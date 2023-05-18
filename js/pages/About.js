@@ -1,7 +1,10 @@
-const aboutElements =
-    "<div>" +
-    `   ${Navbar()}`+
-    `   ${AnimatedSection(
+
+const About = () => {
+    // HTML ELEMENTS TO BE PASSED IN
+    const aboutElements =
+        "<div>" +
+        `   ${Navbar()}`+
+        `   ${AnimatedSection(
             "" +
             `<div class='about-section'>` +
             `   <img class='profile-image' src='./media/images/devil.png'  alt="profile-picture" /> ` +
@@ -63,8 +66,7 @@ const aboutElements =
             "   </div>" +
             "</div>"
         )}` +
-    "</div>";
+        "</div>";
 
-const About = () => {
     return (aboutElements);
 }

@@ -15,12 +15,14 @@ const Navbar = () => {
     if (dev === true){
         navPaths = [
             'index.html',
-            'portfolio.html'
+            'portfolio.html',
+            'resume.html'
         ];
     } else {
         navPaths = [
             './',
-            'portfolio'
+            'portfolio',
+            'resume'
         ];
     }
 
@@ -29,6 +31,7 @@ const Navbar = () => {
         "<nav id='navbar' class='navbar'>" +
         `   <a id='logo-link' href=${navPaths[0]}><h3 id='logo-text'>LC</h3></a>` +
         `   <a href=${navPaths[1]}><p>Portfolio</p></a>` +
+        `   <a href=${navPaths[2]}><p>Resume</p></a>` +
         "   <span id='light-icon' onclick='setLightTheme()' class='material-symbols-outlined theme-icon light-icon'>light_mode</span>" +
         "   <span id='dark-icon' onclick='setDarkTheme()' class='material-symbols-outlined theme-icon dark-icon'>dark_mode</span>" +
         "</nav>";
