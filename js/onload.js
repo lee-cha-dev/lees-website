@@ -1,6 +1,6 @@
 
 // TOGGLE DEVELOPMENT AND DEPLOYMENT NAVIGATION
-const dev = true;
+const dev = false;
 
 // ONLOAD FOR ALL BODY TAGS IN EVERY PAGE
 function bodyOnLoad(){
@@ -65,15 +65,13 @@ function setDarkTheme(){
     navbar.classList.remove('navbar-light-theme');
     navbar.classList.add('navbar-dark-theme');
 
+    // SWAP ICONS
     // SET LIGHT ICON TOGGLE DISPLAY TO FLEX
     document.getElementById('light-icon').style.display = 'flex';
 
     // SET DARK ICON TOGGLE DISPLAY TO NONE;
     document.getElementById('dark-icon').style.display = 'none';
 
-    // SWAP ICONS
-    document.getElementById('light-icon').style.display = 'flex';
-    document.getElementById('dark-icon').style.display = 'none';
     console.log("dark-theme");
 
     // UPDATE COOKIES
@@ -91,14 +89,11 @@ function setLightTheme(){
     navbar.classList.remove('navbar-dark-theme');
     navbar.classList.add('navbar-light-theme');
 
+    // SWAP ICONS
     // SET LIGHT ICON TOGGLE DISPLAY TO NONE
     document.getElementById('light-icon').style.display = 'none';
 
     // SET DARK ICON TOGGLE DISPLAY TO FLEX;
-    document.getElementById('dark-icon').style.display = 'flex';
-
-    // SWAP ICONS
-    document.getElementById('light-icon').style.display = 'none';
     document.getElementById('dark-icon').style.display = 'flex';
 
     // UPDATE COOKIES
