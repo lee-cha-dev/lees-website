@@ -3,8 +3,8 @@ const About = () => {
     // HTML ELEMENTS TO BE PASSED IN
     const aboutElements =
         "<div>" +
-        `   ${Navbar()}`+
-        `   ${AnimatedSection(
+        Navbar() +
+        AnimatedSection(
             "" +
             `<div class='about-section'>` +
             `   <img class='profile-image' src='./media/images/devil.png'  alt="profile-picture" /> ` +
@@ -13,17 +13,19 @@ const About = () => {
             "     <p>Software Developer</p>" +
             "   </div>" +
             `</div>`
-        )}` +
-        `${AnimatedSection(
+        ) +
+        AnimatedSection(
             "" +
-            `<div class='about-me-section'>` +
-            `  <h1>About</h1>` +
-            `  <p>I am a fourth year student currently enrolled at Capella University. The degree I am pursing is a Bachelor&apos;s
-              of Science in Information Technology with a concentration in Software Development. Projected graduation date
-              is June 2024.</p>` +
-            `</div>`
-        )}` +
-        `${AnimatedSection(
+            "<div class='about-me-section'>" +
+            "   <h1>About</h1>" +
+            "   <p>" +
+            "       I am a fourth year student currently enrolled at Capella University. The degree I am pursing is a Bachelor&apos;s\n" +
+            "       of Science in Information Technology with a concentration in Software Development. Projected graduation date\n" +
+            "       is June 2024." +
+            "   </p>" +
+            "</div>"
+        ) +
+        AnimatedSection(
             "" +
             "<div class='about-me-section'>" +
             "   <h1>Education</h1>" +
@@ -46,8 +48,8 @@ const About = () => {
             "       </li>" +
             "   </ul>" +
             "</div>"
-        )}` +
-        `${AnimatedSection(
+        ) +
+        AnimatedSection(
             "" +
             "<div class='about-me-section'>" +
             "   <h1>Skills</h1>" +
@@ -65,7 +67,7 @@ const About = () => {
             "       <p class='skills-grid-item'>Bash & GitBash</p>" +
             "   </div>" +
             "</div>"
-        )}` +
+        ) +
         "</div>";
 
     return (aboutElements);
