@@ -87,3 +87,83 @@
 .link-label {
     margin-right: 60px;
 }
+
+
+/******************MEDIA QUERIES BEGIN******************/
+
+/*
+    THERE ARE A NUMBER OF MEDIA QUERIES TO HANDLE
+    ADJUSTING THE IMAGE TO THE SCREEN SO THAT MOST OF THE
+    OVERVIEW FITS ON THE SCREEN THE USER IS VIEWING THE CONTENT ON
+*/
+
+@media only screen and (min-width: 1250px) {
+    .project-overview-section {
+        width: 35vw;
+    }
+    .project-image {
+        width: 35vw;
+    }
+}
+
+@media only screen and (min-width: 951px) and (max-width: 1249px) {
+    .project-overview-section {
+        width: 45vw;
+    }
+    .project-image {
+        width: 45vw;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .project-overview-section {
+        width: 50vw;
+    }
+    .project-image {
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* FOR DESKTOP: */
+    .project-overview-section {
+        width: 70vw;
+    }
+    .project-image {
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .project-overview-section {
+        width: 75vw;
+    }
+    .project-image {
+        width: 75vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /* FOR TABLETS: */
+    .project-overview-section {
+        width: 80vw;
+    }
+    .project-image {
+        width: 80vw;
+    }
+}
+
+
+@media only screen and (max-width: 425px){
+    /*FOR MOBILE*/
+    .project-overview-section {
+        width: 80vw;
+    }
+    .project-image {
+        width: 80vw;
+    }
+}
+
+/******************MEDIA QUERIES END******************/
+
+
