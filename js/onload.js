@@ -1,6 +1,6 @@
 
 // TOGGLE DEVELOPMENT AND DEPLOYMENT NAVIGATION
-const dev = true;
+const dev = false;
 
 // ONLOAD FOR ALL BODY TAGS IN EVERY PAGE
 function bodyOnLoad(){
