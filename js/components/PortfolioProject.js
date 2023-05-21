@@ -1,10 +1,12 @@
 
-const PortfolioProject = () => {
+const PortfolioProject = (title) => {
 
     const PortfolioProjectElements =
-        "<div>" +
-        "   " +
-        "</div>"
-
+        AnimatedSection(
+            "" +
+            "<div class='portfolio-project'>" +
+            "   <h1>" + title + "</h1>" +
+            "</div>"
+        )
     return (PortfolioProjectElements);
 }
