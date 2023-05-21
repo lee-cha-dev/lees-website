@@ -13,16 +13,18 @@ const Navbar = () => {
     // ----PATHS SHOULD BE LISTED FIRST TO LAST AS THEY APPEAR LEFT TO RIGHT IN THE NAV
     //     HTML BELOW.
     if (dev === true){
+        const baseURL = "http://localhost:63342/lees-website/";
         navPaths = [
-            'index.html',
-            'portfolio.html',
-            'resume.html'
+            baseURL + 'index.html',
+            baseURL + 'portfolio.html',
+            baseURL + 'resume.html',
         ];
     } else {
+        const baseURL = "https://lee-cha-dev.github.io/lees-website/"
         navPaths = [
-            './',
-            'portfolio',
-            'resume'
+            baseURL + '',
+            baseURL + 'portfolio',
+            baseURL + 'resume'
         ];
     }
 

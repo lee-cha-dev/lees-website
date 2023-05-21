@@ -1,4 +1,17 @@
 const Portfolio = () => {
+    let projectLinks;
+    if (dev === true){
+        const baseURL = "http://localhost:63342/lees-website/";
+        projectLinks = [
+            baseURL + "portfolio/stock-dashboard.html"
+        ]
+    } else {
+        const baseURL = "https://lee-cha-dev.github.io/lees-website/"
+        projectLinks = [
+            baseURL + "portfolio/stock-dashboard"
+        ]
+    }
+
     const portfolioElements =
         "<div>" +
             Navbar() +
@@ -12,7 +25,7 @@ const Portfolio = () => {
                 "" +
                 ProjectOverview(
                     "./media/images/stock-dashboard-ss.png",
-                    "https://www.google.com/",
+                    projectLinks[0],
                     "Test Project",
                     "2023",
                     "HTML, CSS, JavaScript",

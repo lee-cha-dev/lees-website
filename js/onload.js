@@ -1,6 +1,6 @@
 
 // TOGGLE DEVELOPMENT AND DEPLOYMENT NAVIGATION
-const dev = false;
+const dev = true;
 
 // ONLOAD FOR ALL BODY TAGS IN EVERY PAGE
 function bodyOnLoad(){
@@ -33,6 +33,9 @@ function devNav(dirArr, content){
         case "resume.html":
             content.innerHTML += Resume();
             break;
+        case "stock-dashboard.html":
+            content.innerHTML += StockDashboard();
+            break;
         default:                        // LOAD LANDING PAGE
             content.innerHTML += About();
     }
@@ -46,6 +49,9 @@ function deployedNav(dirArr, content){
             break;
         case "resume":
             content.innerHTML += Resume();
+            break;
+        case "stock-dashboard":
+            content.innerHTML += StockDashboard();
             break;
         default:                    // LOAD LANDING PAGE
             content.innerHTML += About();
