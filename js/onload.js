@@ -14,10 +14,10 @@ function bodyOnLoad(){
     // HANDLING PAGE TO LOAD
     if (dev === false){
         deployedNav(dirArr, content);
-    } else {
-        devNav(dirArr, content);
-    }
+    } else { devNav(dirArr, content); }
 
+    // HANDLES COOKIES RELATED TO THEME -- THIS IS CORRECTLY NOT WORKING
+    // CORRECTLY. THERE ARE NOW TWO SETS OF COOKIES THANKS TO ADDING IN BASEURL/PORTFOLIO/PROJECT-NAME
     handleCookies();
 }
 
