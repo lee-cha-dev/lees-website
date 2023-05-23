@@ -60,7 +60,7 @@
     padding: 8px;
     opacity: 0.7;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 10px;
 
     transition: 0.2s all ease-in-out;
 
