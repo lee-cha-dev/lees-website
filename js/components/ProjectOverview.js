@@ -41,7 +41,9 @@ const ProjectOverview = (imageSource, imageLink, heading, year, technology, abou
         "           </li>" +
         "           <li>" +
         "               <a href=" + githubLink + " target='_blank'>" +
-        "                   <p>Source Code</p>" +
+        "                   <p>" +
+        "                       Source Code <span class='material-symbols-outlined'>tab_move</span>" +
+        "                   </p>" +
         "               </a>" +
         "           </li>" +
         "       </ul>" +
@@ -51,7 +53,10 @@ const ProjectOverview = (imageSource, imageLink, heading, year, technology, abou
         "           </li>" +
         "           <li>" +
         "               <a href=" + liveLinkHref + " target='_blank'>" +
-        "                   <p>" + liveLinkDesc + "</p>" +
+        "                   <p>" +
+                                liveLinkDesc +
+        "                       <span class='material-symbols-outlined'>tab_move</span>" +
+        "                   </p>" +
         "               </a>" +
         "           </li>" +
         "       </ul>" +
