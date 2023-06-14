@@ -24,9 +24,7 @@ const setThemeCookies = (name, value, daysToExpiration) => {
     const expires = date.toUTCString();
 
     // ADD COOKIE
-    document.cookie = `${name}=${encodeURIComponent(value)};expires=${expires};`;
-
-    // COOKIES ARE NOT WORKING IN THE BROWSERS CURRENTLY
+    document.cookie = `${name}=${encodeURIComponent(value)};expires=${expires};SameSite=Lax;`;
 }
 
 const deleteThemeCookies = () => {

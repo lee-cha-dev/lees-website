@@ -5,7 +5,9 @@ const StockDashboard = () => {
         "<div>" +
         Navbar() +
         PortfolioProject(
-            "Stock Dashboard"
+            "Stock Dashboard",
+            "../../media/images/stock-dashboard-ss.png",
+            "stock-dashboard"
         );
 
     return (StockDashboardElements);

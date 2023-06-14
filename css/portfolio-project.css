@@ -1,9 +1,37 @@
 
 .portfolio-project {
     margin-top: 15vh;
+    margin-bottom: -5vh;
 }
 
 .portfolio-project h1 {
     font-family: "Calibri";
     font-weight: bold;
+}
+
+.project-title{
+    text-align: center;
+    font-font: 'Calibri';
+}
+
+.project-image-title{
+    width: 60vw;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    transition: 0.2s all ease-in-out;
+}
+
+.portfolio-project-about-div{
+    text-align: center;
+    width: 60vw;
+}
+
+.portfolio-project-section-title{
+
+}
+
+.portfolio-project-about-paragraph{
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    text-align: left;
 }
